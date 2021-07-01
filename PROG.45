@@ -1,0 +1,16 @@
+rows, cols = (5, 5)
+arr = [[0 for i in range(cols)] for j in range(rows)]
+print(arr)
+
+import pprint
+  
+def ThreeD(a, b, c):
+    lst = [[ ['#' for col in range(a)] for col in range(b)] for row in range(c)]
+    return lst
+      
+# Driver Code
+col1 = 5
+col2 = 3
+row = 2
+# used the pretty printed function
+pprint.pprint(ThreeD(col1, col2, row))
