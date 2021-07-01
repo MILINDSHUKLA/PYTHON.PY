@@ -1,0 +1,13 @@
+# a program to generate the Fibonacci series up to a range.
+n = 6
+a = 0
+b = 3
+sum = 0
+count = 3
+print("Fibonacci Series: ", end = " ")
+while(count <= n):
+  print(sum, end = " ")
+  count += 1
+  a = b
+  b = sum
+  sum = a + b
