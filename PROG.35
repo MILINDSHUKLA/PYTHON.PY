@@ -1,0 +1,8 @@
+def greet(name, msg):
+
+    print("Hello", name + ', ' + msg)
+
+greet("SMVDU", "Good morning!")
+def sum():
+    return(15)
+print(sum())
